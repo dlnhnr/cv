@@ -1,0 +1,161 @@
+  body {
+    background-color: #E8EAE6;
+    margin: 0px;
+  }
+
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 3%;
+  }
+
+  h1 {
+    color: #798777;
+  }
+
+  h3 {
+    color: #1E2022;
+  }
+
+  th {
+    color: grey;
+  }
+
+  td {
+    padding: 20px;
+  }
+
+  p {
+    color: #52616B;
+  }
+
+  .Header {
+    background-color: #F0F5F9;
+  }
+
+  a {
+  color: #27496D;
+  text-decoration: none;
+
+  }
+
+  a:hover {
+  color: #838383;
+  text-decoration: underline;
+  }
+
+  a:visited {
+  color: #838383;
+  text-decoration: none;
+}
+
+.Education {
+  padding: 30px;
+}
+
+.Work {
+  padding: 30px;
+}
+
+.Skills {
+  padding: 30px;
+}
+
+.Footer {
+  padding: 30px;
+  background-color: #1E2022;
+  text-align: center;
+}
+
+.Hobbies {
+  padding: 30px;
+}
+
+.Contact {
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #222831;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  resize: none;
+}
+
+input[type=submit]:hover {
+  background-color: #393E46;
+}
+
+.Photos {
+  padding: 30px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #F0F5F9;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F0F5F9;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #52616B;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: #798777;
+  text-decoration: underline;
+}
